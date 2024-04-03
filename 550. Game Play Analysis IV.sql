@@ -45,6 +45,9 @@
 
 -- # Write your MySQL query statement below
 
+
+
+
 select 
 round((select count(distinct a.player_id) from Activity a
 inner join 
